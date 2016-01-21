@@ -21,13 +21,14 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                     />
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent"
+                    />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
+                    android:layout_height="0dp"
                     android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
@@ -106,4 +107,4 @@
         android:layout_margin="16dp" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
-<!-- From: file:/C:/Users/Brian/Desktop/xyzreader/xyzreader/XYZReader/src/main/res/layout/fragment_article_detail.xml -->
+<!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/src/main/res/layout/fragment_article_detail.xml -->
