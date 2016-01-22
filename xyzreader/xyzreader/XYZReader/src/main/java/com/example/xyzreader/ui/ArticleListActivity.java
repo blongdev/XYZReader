@@ -11,6 +11,7 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -37,7 +38,7 @@ import com.example.xyzreader.data.UpdaterService;
  * touched, lead to a {@link ArticleDetailActivity} representing item details. On tablets, the
  * activity presents a grid of items as cards.
  */
-public class ArticleListActivity extends ActionBarActivity implements
+public class ArticleListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
     private Toolbar mToolbar;
@@ -56,7 +57,8 @@ public class ArticleListActivity extends ActionBarActivity implements
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        //((CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar_layout)).setTitle("XYZReader");
+        //CollapsingToolbarLayout ctl = ((CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar_layout));
+        //ctl.setTitle("XYZReader");
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
