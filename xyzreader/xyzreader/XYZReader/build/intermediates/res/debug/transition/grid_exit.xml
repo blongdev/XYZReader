@@ -1,0 +1,7 @@
+<transitionSet>
+    <changeBounds />
+    <changeTransform />
+    <changeClipBounds />
+    <changeImageTransform/>
+</transitionSet>
+<!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/src/main/res/transition/grid_exit.xml -->

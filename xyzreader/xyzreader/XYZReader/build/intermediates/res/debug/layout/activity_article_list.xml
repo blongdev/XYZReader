@@ -26,7 +26,7 @@
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:background="@color/indigo">
+        android:background="?colorPrimary">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar_layout"
@@ -35,7 +35,7 @@
             app:collapsedTitleTextAppearance="@android:color/white"
             app:expandedTitleTextAppearance="@android:color/white"
             app:expandedTitleMarginStart="72dp"
-            app:contentScrim="@color/indigo"
+            app:contentScrim="?colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
@@ -57,33 +57,4 @@
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
-
-    <!--
-    <FrameLayout
-        android:id="@+id/toolbar_container"
-        android:layout_width="match_parent"
-        android:layout_height="112dp"
-        android:background="?colorPrimary"
-        android:elevation="8dp">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            android:layout_marginLeft="@dimen/list_toolbar_side_margin"
-            android:layout_marginRight="@dimen/list_toolbar_side_margin"
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
-            android:layout_gravity="bottom">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/logo"
-                android:contentDescription="@string/app_name"
-                app:layout_collapseMode="pin" />
-
-        </android.support.v7.widget.Toolbar>
-    </FrameLayout>
-    -->
-
 </android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/src/main/res/layout/activity_article_list.xml -->

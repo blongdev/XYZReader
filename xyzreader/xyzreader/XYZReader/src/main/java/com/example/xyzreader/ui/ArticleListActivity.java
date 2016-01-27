@@ -144,12 +144,15 @@ public class ArticleListActivity extends AppCompatActivity implements
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    long itemId = getItemId(vh.getAdapterPosition());
                     Intent intent = new Intent(Intent.ACTION_VIEW,
-                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
+                            ItemsContract.Items.buildItemUri(itemId));
                     if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        vh.thumbnailView.setTransitionName("transition_image");
-                        //Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(mActivity, vh.thumbnailView, vh.thumbnailView.getTransitionName()).toBundle();
-                        startActivity(intent);
+                        String title = vh.titleView.getText().toString();
+                        intent.putExtra(getString(R.string.transition_image), title);
+                        vh.thumbnailView.setTransitionName(title);
+                        Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(mActivity, vh.thumbnailView, vh.thumbnailView.getTransitionName()).toBundle();
+                        startActivity(intent, bundle);
                     } else {
                         startActivity(intent);
                     }

@@ -381,6 +381,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="transition_image">transition_image</string>
     <string name="up">Up</string>
     <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
     <!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
@@ -1616,14 +1617,20 @@
     <!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/indigo</item>
-        <item name="android:colorPrimaryDark">@color/indigoDark</item>
-        <item name="android:colorAccent">@color/pinkDark</item>
+        <item name="colorPrimary">@color/indigo</item>
+        <item name="colorPrimaryDark">@color/indigoDark</item>
+        <item name="colorAccent">@color/pinkDark</item>
         <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+
         <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
     </style>
     <style name="Theme.Bacon.Detail" parent="@style/Theme.Bacon">
         <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/detail_enter</item>
     </style>
     <!-- From: file:/C:/Users/Brian/Desktop/desktop/github/XYZReader/xyzreader/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>

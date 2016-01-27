@@ -107,18 +107,18 @@
         <dex dex="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\volley-7000ee1fa8866fa8e44f13052f547e707e4928b9.jar" />
     </item>
     <item
-        jar="C:\Users\Brian\Desktop\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
-        <dex dex="C:\Users\Brian\Desktop\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-53775866d89fa5bef43bf6248c36952829857274.jar" />
-    </item>
-    <item
         jar="C:\Users\Brian\Desktop\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\design\22.2.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
         <dex dex="C:\Users\Brian\Desktop\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-7bc9223ece5fa5a9d042ce4c6c6171aa856439c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brian\Desktop\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="C:\Users\Brian\Desktop\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-53775866d89fa5bef43bf6248c36952829857274.jar" />
     </item>
     <item
         jar="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\classes.jar"
@@ -163,18 +163,18 @@
         <dex dex="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-224dffb838e1cff4932c926170d77f6a8bc67519.jar" />
     </item>
     <item
-        jar="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-88a991f1a45a558977547aeb00da8d89bf7092d3.jar" />
-    </item>
-    <item
         jar="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="f4d7a07120e76988f3a15403838d323c2400db83">
         <dex dex="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-e687465bb12df1c0171b26a41c5901310f76b44e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Brian\Desktop\desktop\github\XYZReader\xyzreader\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-88a991f1a45a558977547aeb00da8d89bf7092d3.jar" />
     </item>
     <item
         jar="C:\Users\Brian\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"

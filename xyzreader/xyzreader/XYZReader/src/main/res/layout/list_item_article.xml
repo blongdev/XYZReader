@@ -24,7 +24,6 @@
 
         <TextView
             android:id="@+id/article_title"
-            style="@style/Theme.Bacon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
@@ -32,11 +31,11 @@
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
             android:ellipsize="end"
+            android:textStyle="bold"
             android:maxLines="4" />
 
         <TextView
             android:id="@+id/article_subtitle"
-            style="@style/Theme.Bacon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
